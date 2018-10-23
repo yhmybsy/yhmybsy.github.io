@@ -3,20 +3,43 @@
   
     
     <entry>
-      <title>“测试</title>
-      <link href="/2018/10/23/%E2%80%9C%E6%B5%8B%E8%AF%95-1/"/>
-      <url>/2018/10/23/%E2%80%9C%E6%B5%8B%E8%AF%95-1/</url>
+      <title>测试06</title>
+      <link href="/2018/10/23/%E6%B5%8B%E8%AF%9506/"/>
+      <url>/2018/10/23/%E6%B5%8B%E8%AF%9506/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>继续测试，测试内容为标题与标签是否正常</p><a id="more"></a><hr>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>测试05</title>
+      <link href="/2018/10/23/%E6%B5%8B%E8%AF%9505/"/>
+      <url>/2018/10/23/%E6%B5%8B%E8%AF%9505/</url>
+      
+        <content type="html"><![CDATA[<p>测试文章是否正常显示</p><a id="more"></a><hr>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> test02 </tag>
+            
+        </tags>
       
     </entry>
     
     <entry>
       <title>“测试</title>
-      <link href="/2018/10/22/%E2%80%9C%E6%B5%8B%E8%AF%95/"/>
-      <url>/2018/10/22/%E2%80%9C%E6%B5%8B%E8%AF%95/</url>
+      <link href="/2018/10/22/%E6%B5%8B%E8%AF%95/"/>
+      <url>/2018/10/22/%E6%B5%8B%E8%AF%95/</url>
       
         <content type="html"><![CDATA[]]></content>
       

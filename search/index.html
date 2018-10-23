@@ -97,7 +97,7 @@
                     }
                 </style>
                 <!-- 这里使用文字(navbar_text or config.title) -->
-                <div class="navbar-brand">Hexo</div>
+                <div class="navbar-brand">Test</div>
                 
             </a>
         </div>
@@ -122,20 +122,52 @@
                 
                 
                 
-                <li class="">
-                    <a href="/categories">
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
                         <i class="fa fa-list"></i>分类
                     </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/categories/test/">test</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
                 </li>
                 
                 
                 
                 
                 
-                <li class="">
-                    <a href="/tags">
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
                         <i class="fa fa-tags"></i>标签
                     </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/tags/test01/">test01</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/test02/">test02</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/test/">test</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
                 </li>
                 
                 
@@ -211,7 +243,7 @@
       	var [month, day] = article.date.split('-')
         ''
         ''
-        var defaultPreview = '/imgs/preview/preview5.jpg'
+        var defaultPreview = '/imgs/preview/preview2.jpg'
         var preview = article.preview ? article.preview : defaultPreview
         var path = '/' + article.path
         resultList.append(`<div class="article well clearfix article-body article-excerpt" data-aos="flip-up">
@@ -390,13 +422,19 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2018/10/23/“测试-1/">“测试</a>
+                    <a href="/2018/10/23/测试06/">测试06</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2018/10/22/“测试/">“测试</a>
+                    <a href="/2018/10/23/测试05/">测试05</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2018/10/22/测试/">“测试</a>
                 </span>
             </li>
             
@@ -478,12 +516,6 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2018/10/22/“测试/">“测试</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
                     <a href="/2018/10/15/测试01/">测试01</a>
                 </span>
             </li>
@@ -496,12 +528,6 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2018/10/23/“测试-1/">“测试</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
                     <a href="/2018/10/22/测试04/">测试04</a>
                 </span>
             </li>
@@ -509,6 +535,24 @@
             <li class="list-group-item">
                 <span class="post-title">
                     <a href="/2018/10/22/测试02/">测试02</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2018/10/22/测试/">“测试</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2018/10/23/测试05/">测试05</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2018/10/23/测试06/">测试06</a>
                 </span>
             </li>
             
@@ -532,6 +576,12 @@
             </ul>
             <div class="tab-content">
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
+    
+    <a href="/tags/test01/" style="font-size: 13.438989392825025px;" class="tag-cloud-link">test01</a>
+    
+    <a href="/tags/test02/" style="font-size: 11.06864499409972px;" class="tag-cloud-link">test02</a>
+    
+    <a href="/tags/test/" style="font-size: 10.322294345698978px;" class="tag-cloud-link">test</a>
     
 </div>
                 <div class="friend-links tab-pane nav bs-sidenav fade" id="sidebar-friend-links">

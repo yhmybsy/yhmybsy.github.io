@@ -10,7 +10,7 @@
     
     
     
-    <title>“测试 | Hexo</title>
+    <title>tags: test02 | Hexo</title>
     <link href=”http://yoursite.com“ rel=”prefetch” />
 
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -97,7 +97,7 @@
                     }
                 </style>
                 <!-- 这里使用文字(navbar_text or config.title) -->
-                <div class="navbar-brand">Hexo</div>
+                <div class="navbar-brand">Test</div>
                 
             </a>
         </div>
@@ -122,20 +122,52 @@
                 
                 
                 
-                <li class="">
-                    <a href="/categories">
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
                         <i class="fa fa-list"></i>分类
                     </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/categories/test/">test</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
                 </li>
                 
                 
                 
                 
                 
-                <li class="">
-                    <a href="/tags">
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
                         <i class="fa fa-tags"></i>标签
                     </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/tags/test01/">test01</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/test02/">test02</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/test/">test</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
                 </li>
                 
                 
@@ -156,27 +188,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 gal-right" id="mainstay">
-                    
-<article class="article well article-body" id="article">
+                    <article class="article well article-body" id="article-tag">
     <div class="breadcrumb">
         <i class="fa fa-home"></i>
         <a href="http://yoursite.com">Hexo</a>
         >
-        <span>“测试</span>
+        <span>标签</span>
     </div>
     <!-- 大型设备详细文章 -->
     <div class="hidden-xs">
         <div class="title-article">
             <h1>
-                <a href="/2018/10/23/“测试-1/">“测试</a>
+                <a href="/tags/test02/index.html">test02</a>
             </h1>
-        </div>
-        <div class="tag-article">
-            
-            <span class="label label-gal">
-                <i class="fa fa-calendar"></i> 2018-10-23
-            </span>
-            
         </div>
     </div>
     <!-- 小型设备详细文章 -->
@@ -184,24 +208,21 @@
         <center>
             <div class="title-article">
                 <h4>
-                    <a href="/2018/10/23/“测试-1/">“测试</a>
+                    <a href="/tags/test02/index.html">test02</a>
                 </h4>
             </div>
-            <p>
-                <i class="fa fa-calendar"></i> 2018-10-23
-            </p>
-            <p>
-                
-                
-            </p>
         </center>
     </div>
-    <div class="content-article">
-        
+    <div class="content-article" style="margin-top: 30px;">
+        <div class="alert alert-info" style="font-size: 14px; line-height: 2; font-weight: bold;">
+            
+            <a href="/2018/10/23/测试05/">测试05</a>
+            <br>
+            
+            
+        </div>
     </div>
 </article>
-
-
                 </div>
                 <aside class="col-md-4 gal-left" id="sidebar">
     <!-- 此为sidebar的搜索框, 非搜索结果页面 -->
@@ -258,13 +279,19 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2018/10/23/“测试-1/">“测试</a>
+                    <a href="/2018/10/23/测试06/">测试06</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2018/10/22/“测试/">“测试</a>
+                    <a href="/2018/10/23/测试05/">测试05</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2018/10/22/测试/">“测试</a>
                 </span>
             </li>
             
@@ -346,12 +373,6 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2018/10/22/“测试/">“测试</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
                     <a href="/2018/10/15/测试01/">测试01</a>
                 </span>
             </li>
@@ -359,12 +380,6 @@
             <li class="list-group-item">
                 <span class="post-title">
                     <a href="/2018/10/22/测试03/">测试03</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/2018/10/23/“测试-1/">“测试</a>
                 </span>
             </li>
             
@@ -380,6 +395,24 @@
                 </span>
             </li>
             
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2018/10/22/测试/">“测试</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2018/10/23/测试05/">测试05</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/2018/10/23/测试06/">测试06</a>
+                </span>
+            </li>
+            
         </ul>
     </div>
 </aside>
@@ -389,17 +422,23 @@
         <div class="panel panel-gal hidden-xs" data-aos="fade-up" data-aos-duration="2000">
             <ul class="nav nav-pills pills-gal">
                 <li class="">
-                    <a href="/2018/10/23/“测试-1/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
+                    <a href="/tags/test02/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
                 </li>
                 <li class="">
-                    <a href="/2018/10/23/“测试-1/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
+                    <a href="/tags/test02/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
                 </li>
                 <li class="">
-                    <a href="/2018/10/23/“测试-1/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
+                    <a href="/tags/test02/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
                 </li>
             </ul>
             <div class="tab-content">
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
+    
+    <a href="/tags/test01/" style="font-size: 9.060178719155221px;" class="tag-cloud-link">test01</a>
+    
+    <a href="/tags/test02/" style="font-size: 15.815478702825343px;" class="tag-cloud-link">test02</a>
+    
+    <a href="/tags/test/" style="font-size: 13.029414361826156px;" class="tag-cloud-link">test</a>
     
 </div>
                 <div class="friend-links tab-pane nav bs-sidenav fade" id="sidebar-friend-links">
