@@ -3,6 +3,23 @@
   
     
     <entry>
+      <title>测试07</title>
+      <link href="/2018/10/25/%E6%B5%8B%E8%AF%9507/"/>
+      <url>/2018/10/25/%E6%B5%8B%E8%AF%9507/</url>
+      
+        <content type="html"><![CDATA[<p>修改主题部分超链接</p><a id="more"></a><hr>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>测试06</title>
       <link href="/2018/10/23/%E6%B5%8B%E8%AF%9506/"/>
       <url>/2018/10/23/%E6%B5%8B%E8%AF%9506/</url>
@@ -155,18 +172,18 @@
     </entry>
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>search</title>
+      <link href="/search/index.html"/>
+      <url>/search/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     <entry>
-      <title>search</title>
-      <link href="/search/index.html"/>
-      <url>/search/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
