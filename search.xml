@@ -3,6 +3,23 @@
   
     
     <entry>
+      <title>测试08</title>
+      <link href="/2018/10/26/%E6%B5%8B%E8%AF%9508/"/>
+      <url>/2018/10/26/%E6%B5%8B%E8%AF%9508/</url>
+      
+        <content type="html"><![CDATA[<p>测试指定文章背景图,使用url并没有成功指定背景图，下次继续测试</p><a id="more"></a><hr>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>测试07</title>
       <link href="/2018/10/25/%E6%B5%8B%E8%AF%9507/"/>
       <url>/2018/10/25/%E6%B5%8B%E8%AF%9507/</url>
